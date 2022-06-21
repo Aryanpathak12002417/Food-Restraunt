@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Desert Order</title>
+    <style>
+        body {
+            background-image: url("https://wallpaperaccess.com/full/1698004.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .section {
+            overflow: hidden;
+            display: grid;
+            grid-column-gap: 30%;
+            grid-row-gap: 4%;
+            grid-template-columns: 9% 10% 10%;
+            margin: -3% 14%;
+            padding: 6% 0%;
+        }
+        
+        .container {
+            height: 142px;
+            width: 214px;
+            cursor: pointer;
+        }
+        
+        li {
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        
+        label.logo {
+            color: rgba(0, 0, 0, 0.86);
+            font-size: 32px;
+            line-height: 55px;
+            padding: 4px 36px;
+            font-weight: inherit;
+            margin: 79px;
+            background-color: #ff7843;
+            border-radius: 15px;
+        }
+        
+        nav ul {
+            float: right;
+            margin-right: 20px;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            line-height: 66px;
+            margin: 0 5px;
+        }
+        
+        nav ul li a {
+            color: rgb(244, 255, 85);
+            font-size: 17px;
+            text-transform: uppercase;
+            padding: 7px 13px;
+            border-radius: 3px;
+            text-decoration: none;
+        }
+        
+        a.active,
+        a:hover {
+            background-color: rgba(253, 253, 253, 0.801);
+            transition: .5s;
+            border-radius: 10px;
+        }
+        
+        .fit {
+            background-size: cover;
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            border-radius: 26px;
+            transition: transform .5s;
+        }
+        
+        .fit:hover {
+            transform: scale(0.5);
+        }
+        
+        .food-align {
+            padding: 0px 30px;
+        }
+        
+        p {
+            text-align: center;
+            color: beige;
+        }
+        
+        .chicken {
+            padding: 6px 0px;
+            margin: 0px 113px -0px -7px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="height: 50px;">
+        <nav>
+            <label class="logo">Flames</label>
+            <ul>
+                <li class="active"><a href="Home.html"><b>Home</b></a></li>
+                <li><a href="Menu.html"><b>Menu</b></a></li>
+                <li><a href="Health and Tips.html"><b>Health & Tips</b></a></li>
+                <li><a href="Order.html">Order</a></li>
+                <li><a href="About_US.html"><b>About us</b></a></li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <p style="text-align: center; color: rgb(255, 227, 71);font-size:
+            x-large;">Click on Your Favorite Desert</p><br>
+    <hr>
+    <div class="section">
+        <div class="container">
+            <a href="Thank You.html"><img src="Deserts/Apple pie.jfif" class="fit"></a>
+            <p> Apple pie </p>
+        </div>
+        <div class="food-align">
+            <div class="container">
+                <a href="Thank You.html"><img src="Deserts/Brownie with ice cream.jfif" class="fit"></a>
+                <p class="chicken"> Brownie with ice cream </p>
+            </div>
+        </div>
+        <div class="container">
+            <a href="Thank You.html"><img src="Deserts/gajar ka halwa.jfif" class="fit"></a>
+            <p> gajar ka halwa </p>
+        </div>
+        <div class="container">
+            <a href="Thank You.html"><img src="Deserts/Gulab Jamun.jfif" class="fit"></a>
+            <p> Gulab Jamun </p>
+        </div>
+        <div class="container">
+            <a href="Thank You.html"><img src="Deserts/jalebi rabri.jfif" class="fit"></a>
+            <p> jalebi rabri </p>
+        </div>
+        <div class="container">
+            <a href="Thank You.html"><img src="Deserts/kaju katli.jfif" class="fit"></a>
+            <p> kaju katli </p>
+        </div>
+        <div class="container">
+            <a href="Thank You.html"><img src="Deserts/kulfi.jfif" class="fit"></a>
+            <p> kulfi </p>
+        </div>
+        <div class="container">
+            <a href="Thank You.html"><img src="Deserts/Sandesh.jfif" class="fit"></a>
+            <p> Sandesh </p>
+        </div>
+        <div class="food-align">
+            <div class="container">
+                <a href="Thank You.html"><img src="Deserts/truffle pastry.jfif" class="fit"></a>
+                <p class="chicken"> truffle pastry </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
